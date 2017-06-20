@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE06E8E71EF7C16C005EA8D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06E8E61EF7C16C005EA8D0 /* ViewController.swift */; };
+		DE06E9011EF87489005EA8D0 /* Doctor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE06E9001EF87489005EA8D0 /* Doctor.jpg */; };
+		DE06E9031EF8749A005EA8D0 /* Work.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE06E9021EF8749A005EA8D0 /* Work.jpg */; };
+		DE06E9051EF874A7005EA8D0 /* Groceries.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE06E9041EF874A7005EA8D0 /* Groceries.jpg */; };
+		DE06E9071EF874CD005EA8D0 /* Warning_36828.png in Resources */ = {isa = PBXBuildFile; fileRef = DE06E9061EF874CD005EA8D0 /* Warning_36828.png */; };
+		DE06E9091EF874E8005EA8D0 /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DE06E9081EF874E8005EA8D0 /* images-2.jpeg */; };
+		DE06E90B1EF87AB8005EA8D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE06E90A1EF87AB8005EA8D0 /* GoogleService-Info.plist */; };
 		DE9B67941EF6321B00644FD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9B67931EF6321B00644FD6 /* AppDelegate.swift */; };
 		DE9B67961EF6321B00644FD6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9B67951EF6321B00644FD6 /* FirstViewController.swift */; };
 		DE9B67981EF6321B00644FD6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9B67971EF6321B00644FD6 /* SecondViewController.swift */; };
 		DE9B679B1EF6321B00644FD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9B67991EF6321B00644FD6 /* Main.storyboard */; };
 		DE9B679D1EF6321B00644FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9B679C1EF6321B00644FD6 /* Assets.xcassets */; };
 		DE9B67A01EF6321B00644FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9B679E1EF6321B00644FD6 /* LaunchScreen.storyboard */; };
+		E9CD968E6D6E4C9BCED51545 /* Pods_AlerTram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399D3CA82E0DFFD4DB26F924 /* Pods_AlerTram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		399D3CA82E0DFFD4DB26F924 /* Pods_AlerTram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlerTram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3AFB92E0FEE395E8CF2AA6 /* Pods-AlerTram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlerTram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlerTram/Pods-AlerTram.debug.xcconfig"; sourceTree = "<group>"; };
+		CC7D791BF139FE420B11C642 /* Pods-AlerTram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlerTram.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlerTram/Pods-AlerTram.release.xcconfig"; sourceTree = "<group>"; };
+		DE06E8E61EF7C16C005EA8D0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE06E9001EF87489005EA8D0 /* Doctor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Doctor.jpg; sourceTree = "<group>"; };
+		DE06E9021EF8749A005EA8D0 /* Work.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Work.jpg; sourceTree = "<group>"; };
+		DE06E9041EF874A7005EA8D0 /* Groceries.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Groceries.jpg; sourceTree = "<group>"; };
+		DE06E9061EF874CD005EA8D0 /* Warning_36828.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Warning_36828.png; sourceTree = "<group>"; };
+		DE06E9081EF874E8005EA8D0 /* images-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpeg"; sourceTree = "<group>"; };
+		DE06E90A1EF87AB8005EA8D0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DE9B67901EF6321B00644FD6 /* AlerTram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlerTram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9B67931EF6321B00644FD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE9B67951EF6321B00644FD6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9CD968E6D6E4C9BCED51545 /* Pods_AlerTram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3740A8C4CD65FC0B1531F8DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				399D3CA82E0DFFD4DB26F924 /* Pods_AlerTram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78146BB69B1A7B2D19159EEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C3AFB92E0FEE395E8CF2AA6 /* Pods-AlerTram.debug.xcconfig */,
+				CC7D791BF139FE420B11C642 /* Pods-AlerTram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DE9B67871EF6321B00644FD6 = {
 			isa = PBXGroup;
 			children = (
 				DE9B67921EF6321B00644FD6 /* AlerTram */,
 				DE9B67911EF6321B00644FD6 /* Products */,
+				78146BB69B1A7B2D19159EEB /* Pods */,
+				3740A8C4CD65FC0B1531F8DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,7 +98,14 @@
 				DE9B67951EF6321B00644FD6 /* FirstViewController.swift */,
 				DE9B67971EF6321B00644FD6 /* SecondViewController.swift */,
 				DE9B67991EF6321B00644FD6 /* Main.storyboard */,
+				DE06E9041EF874A7005EA8D0 /* Groceries.jpg */,
+				DE06E8E61EF7C16C005EA8D0 /* ViewController.swift */,
+				DE06E9021EF8749A005EA8D0 /* Work.jpg */,
+				DE06E9001EF87489005EA8D0 /* Doctor.jpg */,
 				DE9B679C1EF6321B00644FD6 /* Assets.xcassets */,
+				DE06E90A1EF87AB8005EA8D0 /* GoogleService-Info.plist */,
+				DE06E9061EF874CD005EA8D0 /* Warning_36828.png */,
+				DE06E9081EF874E8005EA8D0 /* images-2.jpeg */,
 				DE9B679E1EF6321B00644FD6 /* LaunchScreen.storyboard */,
 				DE9B67A11EF6321B00644FD6 /* Info.plist */,
 			);
@@ -74,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE9B67A41EF6321B00644FD6 /* Build configuration list for PBXNativeTarget "AlerTram" */;
 			buildPhases = (
+				197B97A09FA5511782642BC0 /* [CP] Check Pods Manifest.lock */,
 				DE9B678C1EF6321B00644FD6 /* Sources */,
 				DE9B678D1EF6321B00644FD6 /* Frameworks */,
 				DE9B678E1EF6321B00644FD6 /* Resources */,
+				D4580CD29059300995605A39 /* [CP] Embed Pods Frameworks */,
+				6D0B14F91AF29E736146F2EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,13 +174,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE06E9031EF8749A005EA8D0 /* Work.jpg in Resources */,
+				DE06E9051EF874A7005EA8D0 /* Groceries.jpg in Resources */,
+				DE06E90B1EF87AB8005EA8D0 /* GoogleService-Info.plist in Resources */,
 				DE9B67A01EF6321B00644FD6 /* LaunchScreen.storyboard in Resources */,
+				DE06E9011EF87489005EA8D0 /* Doctor.jpg in Resources */,
 				DE9B679D1EF6321B00644FD6 /* Assets.xcassets in Resources */,
 				DE9B679B1EF6321B00644FD6 /* Main.storyboard in Resources */,
+				DE06E9091EF874E8005EA8D0 /* images-2.jpeg in Resources */,
+				DE06E9071EF874CD005EA8D0 /* Warning_36828.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		197B97A09FA5511782642BC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D0B14F91AF29E736146F2EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlerTram/Pods-AlerTram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4580CD29059300995605A39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlerTram/Pods-AlerTram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE9B678C1EF6321B00644FD6 /* Sources */ = {
@@ -141,6 +243,7 @@
 			files = (
 				DE9B67981EF6321B00644FD6 /* SecondViewController.swift in Sources */,
 				DE9B67941EF6321B00644FD6 /* AppDelegate.swift in Sources */,
+				DE06E8E71EF7C16C005EA8D0 /* ViewController.swift in Sources */,
 				DE9B67961EF6321B00644FD6 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +365,7 @@
 		};
 		DE9B67A51EF6321B00644FD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C3AFB92E0FEE395E8CF2AA6 /* Pods-AlerTram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlerTram/Info.plist;
@@ -274,6 +378,7 @@
 		};
 		DE9B67A61EF6321B00644FD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC7D791BF139FE420B11C642 /* Pods-AlerTram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlerTram/Info.plist;
@@ -303,6 +408,7 @@
 				DE9B67A61EF6321B00644FD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
